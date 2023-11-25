@@ -358,7 +358,7 @@ h3+hr{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 20px;
+    padding: 50px;
     height: 100%;
     width: 100%;
 
@@ -385,7 +385,7 @@ h3+hr{
 
 
 .info-enterprise{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -393,11 +393,12 @@ h3+hr{
 }
 
 
-
-
 #span-contact{
-    margin-top: -20px;
     font-weight: bold;
+}
+
+.info-enterprise{
+    margin-bottom: 30px;
 }
 
 .sale{
@@ -658,9 +659,7 @@ h3+hr{
 }
 
 
-
-
-
+/* footer */
 
 
 footer{
@@ -668,4 +667,56 @@ footer{
     width: 100%;
     height: 500px;
     margin-top: 200px;
+    color: white;
+}
+
+.foot{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+
+.list-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+.list-footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.deep{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+.deep hr{
+    width: 100px;
 }
