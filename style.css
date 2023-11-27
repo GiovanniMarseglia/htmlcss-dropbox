@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+
+a{
+    color: blue;
+}
+
+
+
 html{
     font-family: sans-serif;
 }
@@ -62,6 +69,11 @@ header li a{
 }
 
 
+header ul li:hover{
+    border-bottom: 3px solid black;
+}
+
+
 .info-topleft li{
     width: calc(100%/3);
     height: 100%;
@@ -113,8 +125,12 @@ header li a{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #0061FF;
+    background-color: rgba(0, 98, 255, 1);
     padding: 20px;
+}
+
+.tour:hover{
+    background-color: rgba(0, 98, 255, 0.8);
 }
 
 /* start main */
