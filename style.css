@@ -128,7 +128,7 @@ main{
 .container1{
     margin: 0 auto;
     width: 80%;
-    height: 800px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -145,8 +145,6 @@ main{
   font-size: 3em;  
   text-align: left; 
   margin-top: 50px;
-  width: 100%;
-  height: 20%;
 }
 
 .content-top{
@@ -154,19 +152,20 @@ main{
     width: 100%;
     display: flex;
     position: relative;
+    margin-top: 5%;
 }
 
 .free-trial{
     width: 30%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 60px;
 }
 
 .free-trial p{
-    font-size: 20px;
+    font-size: 2em;
     line-height: 1em;
 }
 
@@ -186,7 +185,6 @@ main{
 
 .img-app{
     width: 45%;
-    height: 120%;
     position: absolute;
     left: 30%; 
 }
@@ -220,6 +218,7 @@ main{
     display: flex;
     height: 100%;
     width: 100%;
+    gap: 5%;
 }
 
 .renew span{
@@ -245,7 +244,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 5%;
 }
 
 .single{
@@ -387,15 +386,14 @@ h3+hr{
     margin: 0 auto;
     align-items: center;
     gap: 5em;
-    height: 800px;
 }
 
 .img-partner{
-    height: 100%;
+    width: 50%;
 }
 
 .img-partner img{
-    height: 100%;
+    width: 100%;
 }
 
 .text-partner{
@@ -404,16 +402,16 @@ h3+hr{
     display: flex;
     flex-direction: column;
     padding: 2%;
-    gap: 30px;
+    gap: 2em;
 }
 
 .text-partner>p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 .text-partner>h3{
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .text-partner>a{
@@ -549,6 +547,7 @@ h3+hr{
     flex-basis: calc(100%/3);
     padding: 50px;
     background-color: #F5F5F5;
+    overflow: scroll;
 }
 
 .center hr{
