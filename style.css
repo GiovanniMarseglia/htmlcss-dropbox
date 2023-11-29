@@ -16,7 +16,6 @@ html{
 header{
     height: 80px;
     width: 100%;
-    
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -79,7 +78,7 @@ header ul li:hover{
 
 .head-right{
     height: 100%;
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -624,22 +623,25 @@ h3+hr{
     margin-top: 200px;
 }
 
-.faq div>span{
-    font-weight: bolder;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 4em;
+
+.faq div details{
+    cursor: pointer;
 }
 
-.faq span:hover+p{
-    display: block;
+
+.faq div details summary{
+    list-style-type: none;
 }
 
-.faq div>p{
-    display: none;
-    font-weight: bolder;
-    margin-top: 20px;
+.faq div details p {
+    padding-top: 2em;
 }
+
+
+.faq div details summary .ab{
+   margin-left: 60%;
+}
+
 
 .faq h2:first-child{
     font-size: 30px;
